@@ -89,15 +89,18 @@
 
 
 
+<meta name="description" content="大家好 谢谢。">
 <meta name="keywords" content="JHDA">
 <meta property="og:type" content="article">
 <meta property="og:title" content="he">
 <meta property="og:url" content="http://yoursite.com/2018/03/19/he/index.html">
 <meta property="og:site_name" content="New_Wrold">
+<meta property="og:description" content="大家好 谢谢。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-19T14:03:48.340Z">
+<meta property="og:updated_time" content="2018-03-20T04:51:31.390Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="he">
+<meta name="twitter:description" content="大家好 谢谢。">
 
 
 
@@ -317,6 +320,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/19/he/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/03/19/he/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -335,7 +348,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  5
                 </span>
               
 
@@ -372,7 +385,9 @@
       
 
       
-        
+        <p>大家好</p>
+<p>谢谢。</p>
+
       
     </div>
     
@@ -444,6 +459,14 @@ var jiathis_config={
 
 
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div onclick="showGitment()" id="gitment-display-button">显示 Gitment 评论</div>
+        <div id="gitment-container" style="display:none"></div>
+      
+    </div>
 
   
 
@@ -596,7 +619,7 @@ var jiathis_config={
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">0</span>
+    <span title="Site words total count">5</span>
   
 </div>
 
@@ -760,6 +783,52 @@ var jiathis_config={
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'YJH143',
+            repo: 'YJH',
+            
+            lang: "zh-cn" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                proxy_gateway: 'https://github.com/aimingoo/intersect',
+            
+                client_id: 'YJH143'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      function showGitment(){
+        document.getElementById("gitment-display-button").style.display = "none";
+        document.getElementById("gitment-container").style.display = "block";
+        renderGitment();
+      }
+      
+      </script>
+    
 
 
 
