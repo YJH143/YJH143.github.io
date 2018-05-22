@@ -76,7 +76,7 @@
 
 
 
-  <meta name="keywords" content="SAM,SG," />
+  <meta name="keywords" content="Bfs+链表," />
 
 
 
@@ -89,18 +89,18 @@
 
 
 
-<meta name="description" content="题目大意： ​    $Alice$和$Bob$两个人在玩游戏，有一个母串$t$ 和 $n$个子串，$Alice $ 和$Bod$ 轮流进行操作， $Alice$先手： 每次操作从$n$个子串中挑选一个出来，在串的尾部添加一个字母，前提是添加后的串依然是母串的子串。 谁无法操作就输掉游戏，问谁会赢。（两人都采用最有策略） 解题思路: ​    这道题每次往串的尾部加字母，由于比赛之前正好在学$SA">
-<meta name="keywords" content="SAM,SG">
+<meta name="description" content="题目大意： ​    有个公司有$n$个员工，$m$个关系表示$A$ 和 $B$ 彼此有电话号码，现在公司想把这些员工分到尽可能多的地方，而且要每个地方的员工都能与其他位置的员工保持联系所以他们必须有彼此的电话号，问最多能分到几个位置，每个位置多少人。 $(n &amp;lt;= 100000 , m &amp;lt;= 2000000)$ 解题思路： ​    题目中给出了$m$个关系表示$A$ 和 $B$ 彼">
+<meta name="keywords" content="Bfs+链表">
 <meta property="og:type" content="article">
-<meta property="og:title" content="男人8题A">
-<meta property="og:url" content="http://yoursite.com/2018/03/28/男人8题A/index.html">
+<meta property="og:title" content="BZOJ1098">
+<meta property="og:url" content="http://yoursite.com/2018/03/28/BZOJ1098">
 <meta property="og:site_name" content="New_Wrold">
-<meta property="og:description" content="题目大意： ​    $Alice$和$Bob$两个人在玩游戏，有一个母串$t$ 和 $n$个子串，$Alice $ 和$Bod$ 轮流进行操作， $Alice$先手： 每次操作从$n$个子串中挑选一个出来，在串的尾部添加一个字母，前提是添加后的串依然是母串的子串。 谁无法操作就输掉游戏，问谁会赢。（两人都采用最有策略） 解题思路: ​    这道题每次往串的尾部加字母，由于比赛之前正好在学$SA">
+<meta property="og:description" content="题目大意： ​    有个公司有$n$个员工，$m$个关系表示$A$ 和 $B$ 彼此有电话号码，现在公司想把这些员工分到尽可能多的地方，而且要每个地方的员工都能与其他位置的员工保持联系所以他们必须有彼此的电话号，问最多能分到几个位置，每个位置多少人。 $(n &amp;lt;= 100000 , m &amp;lt;= 2000000)$ 解题思路： ​    题目中给出了$m$个关系表示$A$ 和 $B$ 彼">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-28T15:20:01.154Z">
+<meta property="og:updated_time" content="2018-03-29T13:22:17.553Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="男人8题A">
-<meta name="twitter:description" content="题目大意： ​    $Alice$和$Bob$两个人在玩游戏，有一个母串$t$ 和 $n$个子串，$Alice $ 和$Bod$ 轮流进行操作， $Alice$先手： 每次操作从$n$个子串中挑选一个出来，在串的尾部添加一个字母，前提是添加后的串依然是母串的子串。 谁无法操作就输掉游戏，问谁会赢。（两人都采用最有策略） 解题思路: ​    这道题每次往串的尾部加字母，由于比赛之前正好在学$SA">
+<meta name="twitter:title" content="BZOJ1098">
+<meta name="twitter:description" content="题目大意： ​    有个公司有$n$个员工，$m$个关系表示$A$ 和 $B$ 彼此有电话号码，现在公司想把这些员工分到尽可能多的地方，而且要每个地方的员工都能与其他位置的员工保持联系所以他们必须有彼此的电话号，问最多能分到几个位置，每个位置多少人。 $(n &amp;lt;= 100000 , m &amp;lt;= 2000000)$ 解题思路： ​    题目中给出了$m$个关系表示$A$ 和 $B$ 彼">
 
 
 
@@ -130,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/03/28/男人8题A/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/03/28/BZOJ1098"/>
 
 
 
 
 
-  <title>男人8题A | New_Wrold</title>
+  <title>BZOJ1098 | New_Wrold</title>
   
 
 
@@ -277,7 +277,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/28/男人8题A/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/28/BZOJ1098">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="YJH143">
@@ -294,7 +294,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">男人8题A</h1>
+          <h1 class="post-title" itemprop="name headline">BZOJ1098</h1>
         
 
         <div class="post-meta">
@@ -306,7 +306,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-28T22:32:19+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-28T23:23:22+08:00">
                 2018-03-28
               </time>
             
@@ -347,8 +347,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/03/28/男人8题A/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/03/28/男人8题A/" itemprop="commentCount"></span>
+                <a href="/2018/03/28/BZOJ1098#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/03/28/BZOJ1098" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -370,7 +370,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  669
+                  731
                 </span>
               
 
@@ -386,7 +386,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  4
                 </span>
               
             </div>
@@ -408,13 +408,11 @@
 
       
         <p>题目大意：</p>
-<p>​    $Alice$和$Bob$两个人在玩游戏，有一个母串$t$ 和 $n$个子串，$Alice $ 和$Bod$ 轮流进行操作， $Alice$先手：</p>
-<p>每次操作从$n$个子串中挑选一个出来，在串的尾部添加一个字母，前提是添加后的串依然是母串的子串。</p>
-<p>谁无法操作就输掉游戏，问谁会赢。（两人都采用最有策略）</p>
-<p>解题思路:</p>
-<p>​    这道题每次往串的尾部加字母，由于比赛之前正好在学$SAM$，就感觉与他有关，但是想了好久也没和此题联系起来，最后就没想了，就去打$At$ 了。 比赛结束后在群里问了一下此题做法，一个大佬就给我讲解了一下，大概就是把母串跑一下$SAM$， 然后会跑出一个$DAG$， 那么就像博弈树那样，从最下面往上做$SG$函数，处理每个节点的$SG$值，在从根跑每个子串，找到每个子串对应节点， 将他们的$SG$值异或起来就可以了。</p>
-<p>代码：</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line">include &lt;cstdio&gt;</span><br><span class="line">include &lt;cstring&gt;</span><br><span class="line">include &lt;algorithm&gt;</span><br><span class="line">include &lt;cmath&gt;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MaxN = <span class="number">2e5</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> netMaxN * <span class="number">2</span> + <span class="number">5</span>, last, cnt;</span><br><span class="line"><span class="keyword">int</span> fa[MaxN * <span class="number">2</span> + <span class="number">5</span>], len[MaxN + <span class="number">5</span>], sg[MaxN + <span class="number">5</span>], mex[<span class="number">30</span>];</span><br><span class="line"><span class="keyword">int</span> v[MaxN * <span class="number">2</span> + <span class="number">5</span>], q[MaxN * <span class="number">2</span> + <span class="number">5</span>];</span><br><span class="line"><span class="keyword">char</span> s[MaxN + <span class="number">5</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Insert</span><span class="params">(<span class="keyword">int</span> x)</span> </span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> p = last ; last = ++cnt;</span><br><span class="line">	<span class="keyword">int</span> np = cnt; len[np] = len[p] + <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">while</span>(!netp &amp;&amp; p) netp = np, p = fa[p];</span><br><span class="line">	<span class="keyword">if</span>(!p) fa[np] = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="keyword">int</span> q = netp; </span><br><span class="line">		<span class="keyword">if</span>(len[p] + <span class="number">1</span> == len[q]) fa[np] = q;</span><br><span class="line">		<span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">int</span> nq = ++cnt; len[nq] = len[p] + <span class="number">1</span>;</span><br><span class="line">			<span class="built_in">memcpy</span>(net[nq], net[q], <span class="keyword">sizeof</span>(net[q]));</span><br><span class="line">			fa[nq] = fa[q];</span><br><span class="line">			fa[np] = fa[q] = nq;</span><br><span class="line">			<span class="keyword">while</span>(netp == q) netp = nq, p = fa[p];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Init</span><span class="params">(<span class="keyword">int</span> t)</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= t; i++) v[i] = <span class="number">0</span>, sg[i] = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= t; i++) v[len[i]]++;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= t; i++) v[i] += v[i - <span class="number">1</span>];</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = t; i &gt;= <span class="number">1</span>; i--) q[v[len[i]]--] = i;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = t; i &gt;= <span class="number">1</span>; i--) &#123;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt;= <span class="number">27</span>; j++) mex[j] = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">int</span> now = q[i];</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt;= <span class="number">25</span>; j++) &#123;</span><br><span class="line">			<span class="keyword">if</span>(netnow) &#123;</span><br><span class="line">				mex[sg[netnow]] = <span class="number">1</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">while</span>(mex[sg[now]]) sg[now]++;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Solve</span><span class="params">(<span class="keyword">char</span> s[])</span> </span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> len = <span class="built_in">strlen</span>(s);</span><br><span class="line">	<span class="keyword">int</span> now = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len; i++) &#123;</span><br><span class="line">		<span class="keyword">int</span> x = s[i] - <span class="string">'a'</span>;</span><br><span class="line">		now = netnow;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> sg[now];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">"%s"</span>, s)) &#123;</span><br><span class="line">		last = <span class="number">1</span>, cnt = <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">int</span> len = <span class="built_in">strlen</span>(s);</span><br><span class="line">		<span class="built_in">memset</span>(net, <span class="number">0</span>, <span class="keyword">sizeof</span>(net));</span><br><span class="line">		<span class="built_in">memset</span>(fa, <span class="number">0</span>, <span class="keyword">sizeof</span>(fa));</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len; i++) Insert(s[i] - <span class="string">'a'</span>);</span><br><span class="line">		Init(cnt);</span><br><span class="line">		<span class="keyword">int</span> n; <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n);</span><br><span class="line">		<span class="keyword">int</span> res = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">			<span class="built_in">scanf</span>(<span class="string">"%s"</span>, s);</span><br><span class="line">			res = res ^ Solve(s);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(res != <span class="number">0</span>) <span class="built_in">printf</span>(<span class="string">"Alice\n"</span>);</span><br><span class="line">		<span class="keyword">else</span> <span class="built_in">printf</span>(<span class="string">"Bob\n"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>​    有个公司有$n$个员工，$m$个关系表示$A$ 和 $B$ 彼此有电话号码，现在公司想把这些员工分到尽可能多的地方，而且要每个地方的员工都能与其他位置的员工保持联系所以他们必须有彼此的电话号，问最多能分到几个位置，每个位置多少人。 $(n &lt;= 100000 , m &lt;= 2000000)$</p>
+<p>解题思路：</p>
+<p>​    题目中给出了$m$个关系表示$A$ 和 $B$ 彼此有电话号码，那么很容易看出这些关系可以构成一个图，图中有连边的两个人就可以放到不同的位置，那么就很容易在这个图的补图中， 连边就表示两个人必须在同一个位置，那么题目就转化成求补图中有多少个联通块，每块的大小是多少。由于$n$的范围很大，所以这个算法是不行的。那么我们现在就可以考虑枚举第$i$个人，没有与第$i$个人相连的其他人在原图的补图中肯定是要和第$i$个人在同一个联通块里面的，这里我们就可以$BFS$，将那些人塞到队列里面继续做。然后我们可以不在枚举已经确定的人，这个可以用链表维护。复杂度是$(n + m)$的.</p>
+<p>代码如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MaxN = <span class="number">2e5</span>, MaxV = <span class="number">4e6</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> n, m, tot;</span><br><span class="line"><span class="keyword">int</span> nxt[MaxN + <span class="number">5</span>], last[MaxN + <span class="number">5</span>];</span><br><span class="line"><span class="built_in">queue</span> &lt;<span class="keyword">int</span>&gt; que;</span><br><span class="line"><span class="keyword">bool</span> vis[MaxN + <span class="number">5</span>], co[MaxN + <span class="number">5</span>];</span><br><span class="line"><span class="keyword">int</span> seq[MaxN + <span class="number">5</span>];</span><br><span class="line"><span class="keyword">int</span> Last[MaxN + <span class="number">5</span>], pre[MaxV + <span class="number">5</span>], other[MaxV + <span class="number">5</span>], all;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">read</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> x=<span class="number">0</span>,f=<span class="number">1</span>;<span class="keyword">char</span> ch=getchar();</span><br><span class="line">	<span class="keyword">while</span>(ch&lt;<span class="string">'0'</span>||ch&gt;<span class="string">'9'</span>)&#123;<span class="keyword">if</span>(ch==<span class="string">'-'</span>)f=<span class="number">-1</span>;ch=getchar();&#125;</span><br><span class="line">	<span class="keyword">while</span>(ch&gt;=<span class="string">'0'</span>&amp;&amp;ch&lt;=<span class="string">'9'</span>)&#123;x=x*<span class="number">10</span>+ch-<span class="string">'0'</span>;ch=getchar();&#125;</span><br><span class="line">	<span class="keyword">return</span> x*f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">Del</span><span class="params">(<span class="keyword">int</span> x)</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	nxt[last[x]] = nxt[x];</span><br><span class="line">	last[nxt[x]] = last[x];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> u, <span class="keyword">int</span> v)</span> </span>&#123;</span><br><span class="line">	pre[++all] = Last[u];</span><br><span class="line">	Last[u] = all;</span><br><span class="line">	other[all] = v;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Bfs</span><span class="params">(<span class="keyword">int</span> x)</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(vis[x]) <span class="keyword">return</span>;</span><br><span class="line">	que.push(x); vis[x] = <span class="number">1</span>; Del(x);</span><br><span class="line">	<span class="keyword">int</span> count = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">while</span>(!que.empty()) &#123;</span><br><span class="line">		<span class="keyword">int</span> now = que.front(); que.pop();</span><br><span class="line">		<span class="keyword">int</span> ed = Last[now];</span><br><span class="line">		<span class="keyword">while</span>(ed != <span class="number">-1</span>) &#123;</span><br><span class="line">			<span class="keyword">int</span> dr = other[ed];</span><br><span class="line">			<span class="keyword">if</span>(!vis[dr]) co[dr] = <span class="number">1</span>;</span><br><span class="line">			ed = pre[ed];</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = nxt[<span class="number">0</span>]; j; j = nxt[j])&#123;</span><br><span class="line">			<span class="keyword">if</span>(!co[j]) &#123;</span><br><span class="line">				count++;</span><br><span class="line">				Del(j);</span><br><span class="line">				vis[j] = <span class="number">1</span>;</span><br><span class="line">				que.push(j);</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span> co[j] = <span class="number">0</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	seq[++tot] = count;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;n, &amp;m);</span><br><span class="line">	<span class="built_in">memset</span>(Last, <span class="number">-1</span>, <span class="keyword">sizeof</span>(Last));</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++) nxt[i] = i + <span class="number">1</span>, last[i + <span class="number">1</span>] = i;</span><br><span class="line">	nxt[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">int</span> u, v;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= m; i++) &#123;</span><br><span class="line">		u = read(); v = read();</span><br><span class="line">		Add(u, v); Add(v, u);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">		Bfs(i);</span><br><span class="line">	&#125;</span><br><span class="line">	sort (seq + <span class="number">1</span>, seq + tot + <span class="number">1</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d\n"</span>, tot);</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= tot; i++) &#123;</span><br><span class="line">		<span class="keyword">if</span>(i != tot) <span class="built_in">printf</span>(<span class="string">"%d "</span>, seq[i]);</span><br><span class="line">		<span class="keyword">else</span> <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, seq[i]);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -432,7 +430,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/SAM-SG/" rel="tag"># SAM,SG</a>
+            <a href="/tags/Bfs-链表/" rel="tag"># Bfs+链表</a>
           
         </div>
       
@@ -445,14 +443,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/03/28/男人8题A" rel="next" title="男人8题A">
+                <i class="fa fa-chevron-left"></i> 男人8题A
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/03/28/BZOJ1098/" rel="prev" title="BZOJ1098">
-                BZOJ1098 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/04/05/bzoj2216" rel="prev" title="bzoj2216">
+                bzoj2216 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -899,7 +901,7 @@ var jiathis_config={
         }
       });
     </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
   
 
 

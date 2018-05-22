@@ -93,7 +93,7 @@
 <meta name="keywords" content="null">
 <meta property="og:type" content="article">
 <meta property="og:title" content="bzoj2216">
-<meta property="og:url" content="http://yoursite.com/2018/04/05/bzoj2216/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/04/05/bzoj2216">
 <meta property="og:site_name" content="New_Wrold">
 <meta property="og:description" content="题目大意： 已知一个长度为$n的序列a1,a2,…,an。$对于每个$1&amp;lt;=i&amp;lt;=n$，找到最小的非负整数$p$满足 对于任意的$j, a_j &amp;lt; = a_i + p - sqrt(abs(i-j))$ $（n &amp;lt;= 50000, 0 &amp;lt;= a_i &amp;lt;= 1000000000)$ 解题思路： ​    我们把不等式移项可得：$a_j - a_i + sqrt(a">
 <meta property="og:locale" content="zh-Hans">
@@ -130,7 +130,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/05/bzoj2216/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/05/bzoj2216"/>
 
 
 
@@ -277,7 +277,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/05/bzoj2216/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/05/bzoj2216">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="YJH143">
@@ -347,8 +347,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/04/05/bzoj2216/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/05/bzoj2216/" itemprop="commentCount"></span>
+                <a href="/2018/04/05/bzoj2216#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/05/bzoj2216" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -450,7 +450,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/03/28/BZOJ1098/" rel="next" title="BZOJ1098">
+              <a href="/2018/03/28/BZOJ1098" rel="next" title="BZOJ1098">
                 <i class="fa fa-chevron-left"></i> BZOJ1098
               </a>
             
@@ -460,7 +460,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/04/06/BZOJ1597/" rel="prev" title="BZOJ1597">
+              <a href="/2018/04/06/BZOJ1597" rel="prev" title="BZOJ1597">
                 BZOJ1597 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -908,7 +908,7 @@ var jiathis_config={
         }
       });
     </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
   
 
 
